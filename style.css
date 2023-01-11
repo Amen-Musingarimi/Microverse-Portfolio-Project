@@ -1,5 +1,3 @@
-/* ------------------------General Styling------------------------------------- */
-
 * {
   margin: 0;
   padding: 0;
@@ -16,16 +14,11 @@
   --color-light-dark: #6070ff;
   --color-dark: #172b4d;
   --color-dark-variant: #344563;
-
   --transition: all 400ms ease;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {
