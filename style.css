@@ -62,7 +62,8 @@ nav ul li {
   padding: 114px 0 12px;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 40px;
   font-weight: 700px;
   line-height: 52px;
