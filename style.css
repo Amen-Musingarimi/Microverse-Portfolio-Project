@@ -8,6 +8,16 @@
   text-decoration: none;
 }
 
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: #6070ff;
+  cursor: pointer;
+}
+
 :root {
   --color-white: #fff;
   --color-light: #7f8cff;
@@ -23,50 +33,64 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  background: #f0f0f0;
   line-height: 1.7;
 }
 
 /* -------------------------------Styling the Nav Bar-------------------------------- */
-nav {
-  color: var(--color-light-dark);
-  font-weight: 700;
-  font-size: 18px;
-  padding: 10px 12px;
-  width: 100%;
-}
-
-nav ul {
+.parent-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav ul li {
-  margin: 4px 12px;
+.header {
+  color: var(--color-light-dark);
+  background: var(--color-white);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.flex-item-1 {
+  width: 50%;
+  padding: 12px 24px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header nav a {
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.flex-item-2 {
+  width: 50%;
 }
 
 /* -- -------------------------------Styling the Home Page---------------------------------- -- */
+
 .main-page {
-  background-image: url('images/background-header.jpg');
+  background: url('images/background-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 80px;
 }
 
 .home-page-details {
   margin: 0 24px;
 }
 
-.section-heading {
-  padding: 114px 0 12px;
-}
-
-h1,
-h2 {
+h1 {
   font-size: 40px;
   font-weight: 700px;
   line-height: 52px;
   color: var(--color-dark);
+  padding: 114px 0 12px;
 }
 
 .about-me-text p {
@@ -75,6 +99,7 @@ h2 {
   margin: 0 0 12px;
 }
 
+/* Styling the social media icons */
 .social-links h2 {
   color: var(--color-light);
   font-size: 16px;
@@ -85,12 +110,22 @@ h2 {
 
 .social-links ul {
   display: flex;
-  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
-section ul li a {
-  color: #505f79;
-  font-size: 20px;
+.social-links {
+  padding-bottom: 114px;
+}
+
+section ul .linked-in,
+.message,
+.cat-icon,
+.thumbs-up,
+.twitter {
+  width: 30px;
+  height: 30px;
 }
 
 /* -- -------------------------------Media Quries Mobile Version---------------------------------- -- */

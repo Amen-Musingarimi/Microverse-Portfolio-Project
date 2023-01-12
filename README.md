@@ -83,9 +83,9 @@ You can deploy this project using Heroku
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Amen-Musingarimi)
-- Twitter: [@twitterhandle](https://twitter.com/Amen-Musingarimi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/atmusingarimi/)
+- GitHub: [@Amen-Musingarimi](https://github.com/Amen-Musingarimi)
+- Twitter: [@Amen-Musingarimi](https://twitter.com/Amen-Musingarimi)
+- LinkedIn: [atmusingarimi](https://www.linkedin.com/in/atmusingarimi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
