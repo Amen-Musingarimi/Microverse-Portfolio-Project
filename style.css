@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: #6070ff;
+  cursor: pointer;
+}
+
+:root {
+  --color-white: #fff;
+  --color-light: #7f8cff;
+  --color-light-dark: #6070ff;
+  --color-dark: #172b4d;
+  --color-dark-variant: #344563;
+  --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f0f0f0;
+  line-height: 1.7;
+}
+
+/* -------------------------------Styling the Nav Bar-------------------------------- */
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  color: var(--color-light-dark);
+  background: var(--color-white);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.flex-item-1 {
+  width: 50%;
+  padding: 12px 24px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header nav a {
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.flex-item-2 {
+  width: 50%;
+}
+
+/* -- -------------------------------Styling the Home Page---------------------------------- -- */
+.home-page-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 24px;
+}
+
+.main-page {
+  background: url('images/background-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 80px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 52px;
+  color: var(--color-dark);
+  padding: 114px 0 12px;
+}
+
+.about-me-text {
+  font-weight: 400;
+  color: var(--color-dark-variant);
+  padding-bottom: 12px;
+}
+
+/* Styling the social media icons */
+.social-links h2 {
+  color: var(--color-light);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.social-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.social-links {
+  padding-bottom: 114px;
+}
+
+section ul .linked-in,
+.message,
+.cat-icon,
+.thumbs-up,
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+
+/* -- -------------------------------Media Quries Mobile Version---------------------------------- -- */
+@media all and (max-width: 600px) {
+  nav {
+    padding: 10px 12px;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin: 4px 12px;
+  }
+}
