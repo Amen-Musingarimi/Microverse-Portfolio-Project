@@ -73,16 +73,19 @@ body {
 }
 
 /* -- -------------------------------Styling the Home Page---------------------------------- -- */
+.home-page-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 24px;
+}
 
 .main-page {
   background: url('images/background-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 80px;
-}
-
-.home-page-details {
-  margin: 0 24px;
 }
 
 h1 {
@@ -93,10 +96,10 @@ h1 {
   padding: 114px 0 12px;
 }
 
-.about-me-text p {
+.about-me-text {
   font-weight: 400;
   color: var(--color-dark-variant);
-  margin: 0 0 12px;
+  padding-bottom: 12px;
 }
 
 /* Styling the social media icons */
