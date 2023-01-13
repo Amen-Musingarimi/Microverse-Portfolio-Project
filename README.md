@@ -8,8 +8,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#amen-musingarimi)
@@ -24,21 +22,19 @@
 
 # 📖 [Microverse-Portfolio-Project] <a name="Portfolio Website"></a>
 
-**[Microverse-Portfolio-Project]** is a portifolio website that shows information about me and the work that I have done
+**[Microverse-Portfolio-Project]** is a portifolio website that shows information about me and the work that I have done.
 
 ## 🛠 Built With <a name="html and css"></a>
 
 ### Tech Stack <a name="html and css"></a>
 
 <details>
-  <summary>A test project</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>N/A</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
@@ -48,8 +44,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[home_page]**
 - **[nav_bar]**
+- **[home_page]**
+- **[works_page]**
+- **[about_myself_page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +71,7 @@ To run tests, run the following command: npx hint . and npx stylelint "\*_/_.{cs
 
 ### Deployment
 
-You can deploy this project using Heroku
+You can deploy this project using Heroku.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,9 +91,10 @@ You can deploy this project using Heroku
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[portfolio_page]**
+- [ ] **[nav_bar]**
+- [ ] **[nav_bar]**
+- [ ] **[portifolio_page]**
 - [ ] **[about_me_page]**
-- [ ] **[contact_me_page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
