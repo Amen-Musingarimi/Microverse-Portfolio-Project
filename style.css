@@ -119,6 +119,7 @@ h1,
   font-weight: 500;
   line-height: 24px;
 }
+
 .about-me-text {
   padding-bottom: 12px;
 }
@@ -198,6 +199,7 @@ section ul .linked-in,
   font-weight: 600;
   line-height: 16px;
 }
+
 .work-client {
   color: var(--color-dark-variant);
 }
@@ -241,6 +243,16 @@ section ul .linked-in,
   background-color: #1d1d9e;
 }
 
+.see-project-btn {
+  padding: 12px;
+  border: 1px solid var(--color-light-dark);
+  border-radius: 8px;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
 .see-project-btn:hover {
   color: #fff;
   background-color: #6070ff;
@@ -250,16 +262,6 @@ section ul .linked-in,
 .see-project-btn:active {
   color: #fff;
   background-color: #1d1d9e;
-}
-
-.see-project-btn {
-  padding: 12px;
-  border: 1px solid var(--color-light-dark);
-  border-radius: 8px;
-  color: #396df2;
-  font-weight: 500;
-  font-size: 17px;
-  margin-bottom: 12px;
 }
 
 /* -- -------------------------------Styling The About Myself Section---------------------------------- -- */
