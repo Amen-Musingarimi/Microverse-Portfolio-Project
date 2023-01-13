@@ -275,8 +275,12 @@ section ul .linked-in,
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 48px;
+  gap: 24px;
   padding: 114px 24px 0 24px;
+}
+
+.about-myself-details {
+  padding-left: 24px;
 }
 
 .flex-item {
