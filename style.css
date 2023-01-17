@@ -345,6 +345,69 @@ section ul .linked-in,
   padding: 12px;
 }
 
+/* -- -------------------------------Styling The Contact Page Section---------------------------------- -- */
+ 
+.contact-page {
+  min-width: 100%;
+  min-height: 100vh;
+  padding: 103px 24px 45px 24px;
+  border-top-left-radius: 80px;
+  background-image: url(images/Contact-me-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color-white);
+}
+ 
+.contact-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+ 
+.contact-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+ 
+.contact-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding: 12px;
+}
+ 
+.contact-form li input {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+ 
+.contact-form li textarea {
+  width: 100%;
+  height: 170px;
+  margin-bottom: 4px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+ 
+.contact-btn-hover:hover {
+  color: #fff;
+  background-color: var(--color-dark);
+  transition: var(--transition);
+}
+ 
+.contact-btn-hover:active {
+  color: #fff;
+  background-color: var(--color-dark-variant);
+  transition: var(--transition);
+}
+
 /* -- -------------------------------Media Quries Mobile Version---------------------------------- -- */
 @media all and (max-width: 600px) {
   nav {
