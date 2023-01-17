@@ -216,14 +216,9 @@ section ul .linked-in,
   color: var(--color-dark-variant);
 }
 
-.works-btns {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 8px;
-}
-
 .works-btn {
+  float: left;
+  margin-right: 8px;
   padding: 4px 12px;
   background: #ebebff;
   border: none;
@@ -244,7 +239,7 @@ section ul .linked-in,
 }
 
 .see-project-btn {
-  padding: 12px;
+  padding: 12px 16px 12px 16px;
   border: 1px solid var(--color-light-dark);
   border-radius: 8px;
   color: #396df2;
