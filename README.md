@@ -95,6 +95,7 @@ You can deploy this project using Heroku.
 - [ ] **[nav_bar]**
 - [ ] **[portifolio_page]**
 - [ ] **[about_me_page]**
+- [ ] **[contact_me_page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +105,7 @@ You can deploy this project using Heroku.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Amen-Musingarimi/Microverse-Portfolio-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

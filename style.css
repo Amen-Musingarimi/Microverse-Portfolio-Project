@@ -95,6 +95,7 @@ body {
 .home-page-details {
   margin: 0 24px;
 }
+
 h1 {
   padding: 114px 0 12px;
 }
@@ -454,6 +455,7 @@ section ul .linked-in,
 
   .main-page {
     background: url('images/desktop-homeBG.jpeg');
+    padding: 140px 260px;
   }
 
   .home-page-details {
@@ -462,10 +464,6 @@ section ul .linked-in,
 
   h1 {
     padding: 0;
-  }
-
-  .main-page {
-    padding: 140px 260px;
   }
 
   h1,
@@ -487,6 +485,14 @@ section ul .linked-in,
 
   .social-links {
     padding-bottom: 0;
+  }
+
+  .social-links h2 {
+    margin-bottom: 30px;
+  }
+
+  .home-margin-bottom {
+    margin-bottom: 12px;
   }
 
   /* -- -------------------Styling the Works Page--------------------- -- */
