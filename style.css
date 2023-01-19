@@ -12,7 +12,6 @@ a:visited,
 a:focus,
 a:hover,
 a:active {
-  color: #6070ff;
   cursor: pointer;
 }
 
@@ -50,6 +49,7 @@ body {
 }
 
 .flex-item-1 {
+  color: #6070ff;
   width: 50%;
   padding: 12px 24px;
 }
@@ -58,6 +58,12 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.desktop-nav-items {
+  display: none;
 }
 
 .header nav a {
@@ -76,15 +82,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.main-container,
-.home-page-details {
   gap: 114px;
-}
-
-.home-page-details {
-  margin: 0 24px;
 }
 
 .main-page {
@@ -92,6 +90,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 80px;
+}
+
+.home-page-details {
+  margin: 0 24px;
 }
 
 h1 {
@@ -178,6 +180,18 @@ section ul .linked-in,
 
 .works-image {
   width: 100%;
+}
+
+.desktop-work-img {
+  display: none;
+}
+
+.works-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .work-title {
@@ -349,8 +363,6 @@ section ul .linked-in,
 
 .contact-page {
   min-width: 100%;
-  min-height: 100vh;
-  padding: 103px 24px 45px 24px;
   border-top-left-radius: 80px;
   background-image: url(images/Contact-me-bg.png);
   background-size: cover;
@@ -362,11 +374,13 @@ section ul .linked-in,
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding: 103px 24px 45px 24px;
 }
 
 .contact-heading {
   font-size: 40px;
   font-weight: 700;
+  line-height: 52px;
   text-align: center;
 }
 
@@ -408,14 +422,220 @@ section ul .linked-in,
   transition: var(--transition);
 }
 
-/* -- -------------------------------Media Quries Mobile Version---------------------------------- -- */
-@media all and (max-width: 600px) {
-  nav {
-    padding: 10px 12px;
-    width: 100%;
+/* -- -------------------------------Media Quries Desktop Version---------------------------------- -- */
+
+@media all and (min-width: 1024px) {
+  /* -- ------------------The Nav Bar-------------------- */
+
+  .header {
+    padding: 16px 142px;
   }
 
-  nav ul li {
-    margin: 4px 12px;
+  .desktop-nav-items {
+    display: block;
+  }
+
+  .mobile-nav-items {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-link {
+    color: #000;
+    font-size: 15px;
+  }
+
+  /* -- -------------------Styling the Home Page--------------------- -- */
+
+  .main-page {
+    background: url('images/desktop-homeBG.jpeg');
+    padding: 140px 260px;
+  }
+
+  .home-page-details {
+    margin: 0;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  h1,
+  .about-myself-heading {
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .about-me-text {
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .social-links-container {
+    gap: 20px;
+  }
+
+  .social-links {
+    padding-bottom: 0;
+  }
+
+  .social-links h2 {
+    margin-bottom: 30px;
+  }
+
+  .home-margin-bottom {
+    margin-bottom: 12px;
+  }
+
+  /* -- -------------------Styling the Works Page--------------------- -- */
+  .work-section {
+    gap: 142px;
+  }
+
+  .grid-item-1 {
+    margin-top: 140px;
+  }
+
+  .grid-item {
+    margin: 0 142px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    padding: 24px;
+  }
+
+  .desktop-work-img {
+    display: block;
+  }
+
+  .mobile-work-img {
+    display: none;
+  }
+
+  .reorder-img {
+    order: 1;
+  }
+
+  .line-break {
+    display: none;
+  }
+
+  .work-title {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .h3-common-styles {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .work-role,
+  .work-year {
+    color: #6b778c;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .work-description {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .works-btns {
+    margin-bottom: 28px;
+  }
+
+  .see-project-btn {
+    background: var(--color-white);
+  }
+
+  /* -- -------------------Styling the About Myself Page--------------------- -- */
+  .about-myself-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 142px;
+  }
+
+  .about-myself-details {
+    padding-left: 0;
+  }
+
+  .about-myself-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .about-myself-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about-myself-text,
+  .social-links-heading,
+  .social-links-container {
+    margin-bottom: 18px;
+  }
+
+  .language-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
+
+  .list-item-icon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list-item {
+    margin-bottom: 0;
+    padding: 18px;
+  }
+
+  .list-item,
+  .list-item-icon {
+    margin-bottom: 12px;
+  }
+
+  .languages-container {
+    padding-bottom: 0;
+  }
+
+  /* -- -------------------Styling the Contact Page--------------------- -- */
+  .contact-page {
+    background-image: url('images/desktop-contact.png');
+    padding: 142px 320px 127px 320px;
+    background-size: contain;
+    background-color: #6070ff;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form li input,
+  .contact-form li textarea {
+    border-radius: 0;
+    margin-bottom: 27px;
+    min-width: 447px;
+  }
+
+  .contact-form li textarea {
+    padding: 15px 38px 15px 16px;
   }
 }
