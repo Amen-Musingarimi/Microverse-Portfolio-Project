@@ -21,7 +21,7 @@ a:active {
   --color-light-dark: #6070ff;
   --color-dark: #172b4d;
   --color-dark-variant: #344563;
-  --transition: all 400ms ease;
+  --transition: all 500ms ease;
 }
 
 html {
@@ -32,6 +32,14 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #f0f0f0;
   line-height: 1.7;
+}
+
+p {
+  transition: var(--transition);
+}
+
+p:hover {
+  transform: translate(3px);
 }
 
 /* -------------------------------Styling the Nav Bar-------------------------------- */
@@ -180,6 +188,11 @@ section ul .linked-in,
 
 .works-image {
   width: 100%;
+  transition: var(--transition);
+}
+
+.works-image:hover {
+  transform: scale(1.1);
 }
 
 .desktop-work-img {
@@ -239,12 +252,12 @@ section ul .linked-in,
   border-radius: 8px;
   cursor: pointer;
   color: var(--color-light-dark);
+  transition: all 500ms ease;
 }
 
 .works-btn:hover {
   color: #fff;
   background-color: #6070ff;
-  transition: var(--transition);
 }
 
 .works-btn:active {
@@ -260,12 +273,12 @@ section ul .linked-in,
   font-weight: 500;
   font-size: 17px;
   margin-bottom: 12px;
+  transition: all 500ms ease;
 }
 
 .see-project-btn:hover {
   color: #fff;
   background-color: #6070ff;
-  transition: var(--transition);
 }
 
 .see-project-btn:active {
