@@ -34,6 +34,14 @@ body {
   line-height: 1.7;
 }
 
+p {
+  transition: var(--transition);
+}
+
+p:hover {
+  transform: translate(3px);
+}
+
 /* -------------------------------Styling the Nav Bar-------------------------------- */
 .parent-container {
   display: flex;
@@ -180,6 +188,11 @@ section ul .linked-in,
 
 .works-image {
   width: 100%;
+  transition: var(--transition);
+}
+
+.works-image:hover {
+  transform: scale(1.1);
 }
 
 .desktop-work-img {
